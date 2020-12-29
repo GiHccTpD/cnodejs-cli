@@ -1,0 +1,39 @@
+{
+  "name": "cnodejs-cli",
+  "version": "1.0.0",
+  "description": "cnodejs cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "bin": {
+    "cnodecli": "./options_common.js"
+  },
+  "keywords": [
+    "cnodejs",
+    "cli"
+  ],
+  "author": "mig",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^4.1.0",
+    "cli-table2": "^0.2.0",
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "lodash": "^4.17.19",
+    "marked": "^1.1.1",
+    "marked-terminal": "^4.1.0",
+    "moment": "^2.27.0",
+    "ora": "^4.0.5",
+    "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.0"
+  }
+}
